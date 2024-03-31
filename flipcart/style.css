@@ -1,0 +1,260 @@
+* {
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+}
+
+.navbar {
+    height: 60px;
+    background-color: rgb(217, 225, 236);
+    color: rgb(22, 8, 8);
+    display: flex;
+
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav-logo {
+    height: 50px;
+    width: 100px;
+}
+
+.logo {
+    display: flex;
+    background-image: url("fli.jpeg");
+    background-size: cover;
+    height: 50px;
+    width: 100px;
+}
+
+.border {
+    border: 1.5px solid transparent;
+}
+
+.border:hover {
+    border: 1.5px solid rgb(178, 10, 10);
+}
+
+/*box3*/
+.nav-search {
+    display: flex;
+    background-color: rgb(13, 1, 1);
+    background-color: white;
+    width: 600px;
+    height: 40px;
+    border-radius: 5px;
+}
+
+.search-icon {
+
+    background-image: url("magnifying.jpeg");
+    width: 45px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    background-color: white;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    background-color: #of1111;
+}
+
+.btn {}
+
+.search-input {
+    width: 80%;
+    font-size: 1rem;
+    border: none;
+}
+
+.nav-search:hover {
+    border: 2px solid black;
+}
+
+.add-icon {
+    display: flex;
+    margin-right: 4px;
+
+}
+
+.add-first {
+    color: rgb(11, 9, 9);
+    font-size: 0.9rem;
+    margin-left: 3px;
+}
+
+.fourth {
+    margin-right: 2px;
+    color: black;
+}
+
+/*line3*/
+.second-line {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: wheat red;
+}
+
+.a {
+    color: black;
+}
+
+.box {
+    height: 70px;
+    width: 7%;
+    background-color: white;
+    padding: 2ox;
+    margin-top: 5px;
+
+}
+
+.box-img {
+    height: 70px;
+    background-size: cover;
+    margin-bottom: 0.2rem;
+}
+
+.box-content {
+    /*margin: 1px;
+    margin-left:10px ;*/
+}
+
+.box-content p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*hero sectin*/
+.hero-section {
+    margin: 30px;
+    background-image: url("3lineimg.webp");
+    height: 315px;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-mes {
+    background-color: antiquewhite;
+    height: 60px;
+    color:black;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    width: 100%;
+    margin-top: 280px;
+
+
+
+}
+
+/*line 4*/
+
+
+.d {
+    margin: 30px 0px 30px 30px;
+
+    width: 1470px;
+    height: 293px;
+    background-color: rgb(247, 236, 236);
+}
+
+.mes {
+    /* background-color: white;*/
+    color: black;
+    font-size: 25px;
+    margin: 2px;
+    padding: 3px;
+}
+
+.e {
+    display: flex;
+
+    justify-content: space-evenly;
+
+}
+
+.boxd {
+   
+    display: flex;
+    height: 200px;
+    width: 160px;
+    background-color: rgb(254, 249, 249);
+    padding: 10px;
+    margin: 9px;
+
+
+}
+
+.boxe-img {
+    height: 160px;
+    width: 160px;
+    background-size: cover;
+    margin-bottom: 0.2rem;
+}
+
+.box-con p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+
+}
+
+.g p {
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+footer{
+    margin: 50px;
+}
+.panel1{
+background-color: black;
+color: white;
+height: 275px;
+display: flex;
+justify-content: space-evenly;
+
+
+
+}
+u{
+    margin-top: 20px;
+}
+u p{
+    font-weight: bold;
+    color: white;
+    display: auto;
+    font-size: 1rem;
+    margin-top:10px;
+
+}
+u h3{
+    margin-top: 30px;
+    color: 
+    rgb(225, 195, 195);
+    
+}
+.panel2{
+    background-color: black;
+    color: white;
+    border-top:1px solid white;
+    height: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+u h4{
+    margin-top: 30px;
+    color: 
+    rgb(225, 195, 195);
+    
+}
